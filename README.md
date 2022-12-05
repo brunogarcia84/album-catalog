@@ -17,7 +17,7 @@ Link for the project design: [Figma link](https://www.figma.com/file/oSj29DV44xG
 
 ## _commit_ standards
 
-Simplified version of the standards: [Guia de estilo de mensagens de commit da Udemy](https://udacity.github.io/git-styleguide/). Must contain the type and subject. `type` may be:
+Simplified version of the standards: [Commit styles](https://udacity.github.io/git-styleguide/). Must contain the type and subject. `type` may be:
 
 | Type | Subject |
 | :--- | :--- |
