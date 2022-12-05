@@ -30,7 +30,7 @@ Simplified version of the standards: [Commit styles](https://udacity.github.io/g
 ## Would you like to contribute?
 
 1. Create a _fork_ in your own GitHub account.
-2. Look for an open issue [issues](https://github.com/brunogarcia84/album-catalog/issues)
+2. Look for an open [issues](https://github.com/brunogarcia84/album-catalog/issues)
 3. Code the issue, _commit_ the changes in your own repository, and submit the _pull request_
 4. _pull request_ message must contain the number of the issue
 5. _pull requests_ are submited to a code review, and may have some suggestions
