@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: var(--size-xl);
+  background-color: var(--nav);
+  box-shadow: 5px 4px 10px var(--nav-drop-shaddow);
+  margin-bottom: var(--size-xl);
+}
+
+.logo {
+  font-size: calc(var(--size-xs) * 2);
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  padding: var(--size-lg);
+}
+
+.login_signup a {
+  /* display: inline-block; */
+  padding: var(--size-xs);
+}

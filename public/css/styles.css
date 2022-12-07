@@ -1,0 +1,65 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+@import url("./variables.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background);
+  color: var(--font-primary);
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: ease-in-out 0.4s;
+}
+
+a:hover {
+  color: var(--font-hover);
+}
+
+.featured_title {
+  text-align: center;
+  font-size: var(--size-md);
+  color: var(--font-primary);
+  font-weight: var(--bold);
+  margin-bottom: var(--size-lg);
+}
+
+.featured_illustration > img {
+  display: block;
+  margin: 0 auto;
+  border: 4px inset var(--font-hover);
+}
+
+.others {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--size-sm);
+  margin: var(--size-xl) 0;
+}
+
+.others_block {
+  display: inline-block;
+  width: calc(var(--size-xl) * 3);
+  text-align: center;
+}
+
+.others_name {
+  display: block;
+  margin-top: var(--size-xs);
+}
+
+.others_illustration > img {
+  display: block;
+  margin: 0 auto;
+  /* padding: var(--size-xs); */
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border: 2px inset var(--font-hover);
+}

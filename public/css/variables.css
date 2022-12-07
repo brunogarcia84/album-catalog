@@ -1,0 +1,19 @@
+:root {
+  --font-primary: hsl(0, 0%, 81%);
+  --font-hover: hsl(0, 0%, 65%);
+  --background: hsl(240, 11%, 15%);
+  --nav: hsl(222, 19%, 24%);
+  --nav-drop-shaddow: hsl(237, 14%, 28%);
+
+  --size-xs: 1rem;
+  --size-sm: 2.5rem;
+  --size-md: 3rem;
+  --size-lg: 4rem;
+  --size-xl: 5rem;
+
+  --font-family: "Roboto", sans-serif;
+  --thin: 300;
+  --regular: 400;
+  --bold: 700;
+  --black: 900;
+}
