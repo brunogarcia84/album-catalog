@@ -1,26 +1,28 @@
-const express = require("express");
+import express from "express";
 const app = express();
-const expressLayouts = require("express-ejs-layouts");
-const path = require("path");
-const PORT = process.env.PORT || 5000;
+import expressLayouts from "express-ejs-layouts";
+import dotenv from "dotenv";
+
+//Config Dotenv
+dotenv.config();
 
 // Body Parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Variables for the modules
-const indexRoute = require("./routes/index");
+import indexRoute from "./routes/index.js";
 
-// Setting the views of the application
+// Setting the views of the application with the template engine EJS
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
+app.set("views", "views");
 app.set("layout", "layouts/layout");
 app.use(expressLayouts);
 
 // Setting the static folder of the application
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static("public"));
 
 // Using the routes of the application
 app.use("/", indexRoute);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+export default app;

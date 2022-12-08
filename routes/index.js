@@ -1,5 +1,5 @@
-const express = require("express");
-const router = express.Router();
+import { Router } from "express";
+const router = new Router();
 
 // Getting the home page of the application
 router.get("/", (req, res) => {
@@ -12,4 +12,4 @@ router.use((error, req, res, next) => {
   res.status(error.status || 500).json({ error: error.message });
 });
 
-module.exports = router;
+export default router;
